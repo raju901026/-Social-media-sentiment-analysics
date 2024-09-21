@@ -1,5 +1,6 @@
 # -Social-media-sentiment-analysics
 
+
 import pandas as pd
 from textblob import TextBlob
 
@@ -29,7 +30,8 @@ df['sentiment'] = df['text'].apply(get_sentiment)
 output_path = r'C:\power bi\social media sentiment\sentiment_analysis_results.csv'
 df.to_csv(output_path, index=False)
 
-print("Sentiment analysis completed and results saved!")![Screenshot 2024-09-21 191630](https://github.com/user-attachments/assets/960c091a-6837-4cbc-a6ba-0a12e3aaf6a4)
-![Screenshot 2024-09-21 191502](https://github.com/user-attachments/assets/3d6abaef-95e0-4cff-87b7-f0af5a4f2230)
-![Screenshot 2024-09-21 191446](https://github.com/user-attachments/assets/bcd98df6-8508-48bd-a4c9-71156e74598b)
-![Screenshot 2024-09-21 191426](https://github.com/user-attachments/assets/65bee24f-c3c5-4afd-aef0-10b1b8c1df51)
+![Screenshot 2024-09-21 191630](https://github.com/user-attachments/assets/315faebb-7a9b-495b-a11b-38a0992335e3)
+![Screenshot 2024-09-21 191502](https://github.com/user-attachments/assets/38a94f1f-d062-40ae-8694-0c61b36bed16)
+![Screenshot 2024-09-21 191446](https://github.com/user-attachments/assets/b290513e-0c81-4b33-bff6-de2367315e70)
+![Screenshot 2024-09-21 191426](https://github.com/user-attachments/assets/f734a5c3-2cd9-4b22-ae28-768b2a116ac4)
+
